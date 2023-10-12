@@ -47,7 +47,7 @@ body input{
     color: black;
 } */
 
-body #mera-button{
+body #btn{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +61,7 @@ body #mera-button{
     font-size: 1.5rem;
 }
 
-body #mera-button:hover{
+body #btn:hover{
     color:#fff;
     box-shadow: 2px 2px 20px 2px #000000cc;
 }
@@ -69,7 +69,6 @@ body #mera-button:hover{
     display:grid;
     grid-template-columns: repeat(3,1fr);
     background-color: rgb(87, 87, 88);
-    padding-top: 2vh;
     /* justify-content:center;
     align-items: center; */
 }
@@ -78,6 +77,7 @@ body #mera-button:hover{
     display:flex;
     flex-direction:column;
     transition:linear all 0.3s;
+    margin:5vh 0;
 }
 .container:hover{
     scale: 1.05;
@@ -105,7 +105,32 @@ input#hello{
 .cont-1 a{
     margin-right: 3%;
 }
-
+.next{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.n1{
+    width: 50%;
+    height: 65%;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    border-radius: 20px;
+    font-size: 2rem;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all linear 0.5s;
+    box-shadow: 4px -4px 20px 0px rgba(0,0,0,0.78);
+}
+.n1:hover{
+    scale: 1.1;
+}
 
 
 .cont-3{
